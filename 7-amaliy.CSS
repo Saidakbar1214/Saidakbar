@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 8, 19);
+}
+header{
+    background-color: #3623a2;
+    color: rgb(200, 154, 167);
+    padding: 20;
+    text-align: center;
+    animation: rang 4s infinite alternate;  
+}
+nav a {
+    color: rgb(255, 0, 162);
+    text-decoration: none;
+    margin: 20px;
+}
+nav{
+   background-color: #131212;
+    color: rgb(149, 50, 241);
+    padding: 10;
+    text-align: center; 
+}
+.quti{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    animation: rang 4s infinite alternate; 
+    gap: 30px;
+}
+.quticha{
+    background-color: rgb(175, 94, 136);
+    padding: 50px;
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(175, 221, 7);
+    min-width: 300px;
+}
+footer{
+    text-align: center;
+    background-color: #0be0c0;
+    color: rgb(231, 140, 29);
+    padding: 15px;
+    img{
+        animation: move 4s infinite alternate;
+        
+    }
+}
+.quticha lh {
+    color: rgb(224, 10, 10);
+    font-size: 100px;
+}
+img{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    animation: move 4s infinite alternate;
+}
+@keyframes rang{
+    from{
+        background-color: rgb(245, 7, 7);
+    }
+    to{
+        background-color: rgb(115, 115, 47);
+    }
+}
+@keyframes move{
+    from{
+        left: 0;
+    }
+    to{
+        left: 130px;
+    }
+}
